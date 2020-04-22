@@ -1,0 +1,147 @@
+/*#turquoise: #66bfbf
+#grey: #eaf6f6
+#pink: #fcfefe
+#white: #f76b8a;
+
+font-family: 'Sacramento', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+body{
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin:0;
+  text-align: center;
+}
+h1{
+  color: #66BFBF;
+  font-size: 5.625em;
+  font-family: 'Sacramento', cursive;
+  margin:70px auto 0 auto;
+  line-height: 2;
+}
+h2{
+  padding-bottom:10px;
+  color: #66BFBF;
+  margin:0 auto 33px auto;
+  font-weight:normal;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color:#11999E;
+}
+p{
+  line-height: 2;
+}
+hr{
+  width:4%;
+  border-top:5px dotted #EAF6F6;
+  border-right: 0;
+  border-bottom:0;
+  border-left: 0;
+  margin: 100px auto;
+}
+.top-container{
+  background-color: #eaf6f6;
+  padding-top:100px;
+  position: relative;
+
+}
+
+.top-cloud{
+position: absolute;
+right:300px;
+top:40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:250px;
+  bottom:300px;
+}
+
+
+.middle-container{
+margin:100px 0;
+  }
+
+  .profile{
+    width:30%;
+    line-height: 2;
+    margin:100px auto;
+  }
+  .skills{
+
+  }
+
+  .dp{
+    margin: 0 0 20px 0;
+    border-radius: 50%;
+    height:150px;
+  }
+  .skill-row{
+    margin:100px auto;
+    width:50%;
+    text-align: left;
+  }
+  .code-image{
+    margin-right: 30px;
+    float:left;
+    width:25%;
+  }
+  .python-image{
+    margin-left: 30px;
+    float:right;
+    width:25%;
+  }
+  /*.code-image-decription{
+    clear:left;
+  }
+  .python-image-decription{
+    clear:right;
+  }*/
+
+.git-desc{
+  margin:40px 0 60px 0;
+}
+.contact-me{
+  width:40%;
+  margin:100px auto;
+}
+.btn{
+  background:linear-gradient(0deg, #11cdd4, #11999E);
+  color:white;
+  border-radius: 8px;
+  font-family: arial;
+  font-size: 20px;
+  padding:10px 20px;
+  text-decoration: none;
+}
+.btn:hover{
+  background:linear-gradient(0deg, #30e3cb, #2bc4ad);
+}
+/*the bottom container*/
+.bottom-container{
+background-color: #66BFBF;
+width:100%;
+padding:50px 0;
+  }
+.footer-link{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+  text-decoration: none;
+  margin:10px 25px;
+}
+.footer-link:hover{
+  color:#eaf6f6;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding-top:25px;
+}
